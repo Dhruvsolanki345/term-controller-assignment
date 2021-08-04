@@ -58,7 +58,6 @@
 .sidebar_dropdownTitle {
   margin: 0 20px;
   font-size: 14px;
-  letter-spacing: 1px;
   font-weight: 600;
 }
 
@@ -86,6 +85,5 @@
   color: #757575;
   font-size: 14px;
   font-weight: bold;
-  letter-spacing: 1px;
   cursor: pointer;
 }
