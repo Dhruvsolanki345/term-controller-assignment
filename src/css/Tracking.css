@@ -1,0 +1,42 @@
+#tracking_table, .tracking {
+    width: 100%;
+}
+
+#tracking_table td, #tracking_table th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+
+#tracking_table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.tracking_searchHeader {
+    padding-right: 85px !important;
+}
+
+.tracking_search {
+    padding-left: 35px !important;
+    padding-right: 50px !important;
+}
+
+.tracking_matches {
+    padding-left: 40px !important;
+    padding-right: 50px !important;
+}
+
+.tracking_searchIcon {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.tracking_deleteBtn {
+    background-color: #C4C4C4;
+    padding: 5px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}

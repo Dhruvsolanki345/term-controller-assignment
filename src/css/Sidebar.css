@@ -1,0 +1,91 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 274px;
+}
+
+.sidebar_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 106px;
+  box-sizing: border-box;
+  padding-top: 14px;
+}
+
+.sidebar_logo {
+  width: 60px;
+  height: 60px;
+}
+
+.sidebar_title {
+  font-size: 28px;
+  line-height: 38.3px;
+  color: #3f0e40;
+}
+
+.sidebar_title span {
+  font-weight: bold;
+}
+
+.sidebar_menu {
+  flex: 1;
+}
+
+.sidebar_page,
+.sidebar_dropdownHeader {
+  color: #757575;
+  display: flex;
+  align-items: center;
+  width: 278px;
+  cursor: pointer;
+}
+
+.sidebar_page.active {
+  background-color: #3f0e40;
+  color: white;
+}
+
+.sidebar_PageIcon,
+.sidebar_settingIcon,
+.sidebar_dropdownIcon {
+  margin: 12px 15px;
+  font-size: 26px;
+}
+
+.sidebar_pageTitle,
+.sidebar_dropdownTitle {
+  margin: 0 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.active .sidebar_pageTitle {
+  font-weight: 500;
+}
+
+.sidebar_dropdown {
+  margin-top: 5px;
+}
+
+.sidebar_dropdownTitle {
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.sidebar_dropdownIcon {
+  margin-left: auto;
+}
+
+.sidebar_dropdownOptions {
+  margin-left: 35px;
+  margin-top: 15px;
+  color: #757575;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
