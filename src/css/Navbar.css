@@ -9,18 +9,19 @@
 .navbar_title {
     text-transform: uppercase;
     margin-right: auto;
-    font-size: 33px;
+    font-size: 32px;
     margin-left: 50px; 
+    padding-top: 5px; 
 }
 
 .navbar_search {
     display: flex;
     align-items: center;
-    border-radius: 6px;
+    border-radius: 8px;
     overflow: hidden;
     background-color: #F8F8F8;
-    padding: 12px 5px;
-    width: 360px; 
+    padding: 11px 5px 10px;
+    width: 360px;  
 }
 
 .navbar_search input, .navbar_search button {
@@ -57,7 +58,7 @@
     font-size: 18px;
     font-weight: 600;
     padding: 7px 15px;
-    margin-right: 38px;
-    margin-left: 22px;
-    cursor: pointer; 
+    margin-right: 55px;
+    margin-left: 20px;
+    cursor: pointer;  
 }
